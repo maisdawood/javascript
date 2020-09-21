@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+
+<p id="demo">hello javascript</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML="this is a javascript!" '> click me!
+
+</button>
+
+
+
+<button type="button" onclick="document.getElementById('ma').src='pic_bulbon.gif'">turn on</button>
+    
+<img id="ma" src="pic_bulboff.gif" style="width:100px">
+   
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button><br><br>
+<button  type="button" onclick="myfun()">click me</button><br><br>
+<p id="demo11"></p>
+<p id="demo2"></p>
+<p id="n"></p>
+
+<script>
+function myfun(){
+
+    document.getElementById("demo11").innerHTML="hello";
+    document.getElementById("demo2").innerHTML="how are  you";
+}
+
+function mul(r1,r2){
+
+
+return r1*r2; }
+document.getElementById("n").innerHTML=mul(2,3);
+</script>
+</body>
+
+
+</html>
